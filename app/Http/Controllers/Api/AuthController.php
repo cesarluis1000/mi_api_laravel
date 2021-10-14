@@ -76,6 +76,6 @@ class AuthController extends Controller
     }
 
     public function index(){
-        echo "Hello World";
+        echo "Hola Mundo";
     }
 }
