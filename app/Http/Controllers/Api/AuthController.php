@@ -57,7 +57,7 @@ class AuthController extends Controller
         ],201);
         
     }
-
+    //Terminar Sesion
     public function logout(Request $request){
         
         $request->user()->token()->revoke();
