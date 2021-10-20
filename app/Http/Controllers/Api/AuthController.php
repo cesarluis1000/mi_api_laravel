@@ -10,6 +10,7 @@ use Illuminate\Support\Facades\Auth;
 
 class AuthController extends Controller
 {
+    //Inicio de Sesion
     public function login(Request $request){
         
         $request->validate([
